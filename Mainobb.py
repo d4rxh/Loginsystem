@@ -56,7 +56,7 @@ SCRIPT_FILES = {
     "6": ("SIZE_ISSUE_FIX.py", "python"),
     "7": ("SIZE_ISSUE_ICON_FIX.py", "python"),
     "8": ("hit.py", "python"),
-    "9": ("gay", "python"),
+    "9": ("killmsg.py", "python"),
     "10": ("rep.sh", "bash")
 }
 
@@ -103,7 +103,7 @@ def main():
         print(colored("6] FIX SIZE ISSUE GUN", "yellow"))
         print(colored("7] FIX SIZE ISSUE CARS AND OUTFITS", "yellow"))
         print(colored("8] MOD HIT EFFECT (Pak)", "yellow"))
-        print(colored("9] DONT USE", "yellow"))
+        print(colored("9] KILL MSG", "yellow"))
         print(colored("10] REPAK OBB (Testing)", "yellow"))
         print(colored("0] EXIT", "red"))
 
