@@ -58,7 +58,8 @@ SCRIPT_FILES = {
     "8": ("hit.py", "python"),
     "9": ("killmsg.py", "python"),
     "10": ("entry.py", "python"),
-    "11": ("rep.sh", "bash")
+    "11": ("bot.py", "python"),
+    "12": ("rep.sh", "bash")
 }
 
 # ───────────────────────────────────────────
@@ -105,8 +106,9 @@ def main():
         print(colored("7] FIX SIZE ISSUE CARS AND OUTFITS", "yellow"))
         print(colored("8] MOD HIT EFFECT (Pak)", "yellow"))
         print(colored("9] KILL MSG", "yellow"))
-        print(colored("10] ENTRY EMOTE", "yellow"))
-        print(colored("11] REPAK OBB (Testing)", "yellow"))
+        print(colored("10] ENTRY EMOTE(X-SUIT ONLY)", "yellow"))
+        print(colored("11] SKIN TOOL", "yellow"))
+        print(colored("12] REPAK OBB (Testing)", "yellow"))
         print(colored("0] EXIT", "red"))
 
         choice = input(colored("\n🔹 Enter your choice: ", "yellow", attrs=['bold'])).strip()
